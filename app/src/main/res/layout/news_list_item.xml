@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/NewsListCovering">
+
+    <LinearLayout
+        android:id="@+id/section_date_Liner"
+        style="@style/NewsListSectionDateliner">
+
+
+        <TextView
+            android:id="@+id/section_name"
+            style="@style/SectionOfNewsList"
+            tools:text="Sports" />
+
+        <LinearLayout
+            android:id="@+id/date_time_wrapper"
+            style="@style/NewsListDateTimeLiner">
+
+            <!-- Date -->
+            <TextView
+                android:id="@+id/date"
+                style="@style/NewsListDate"
+                tools:text="Sep 6, 2018" />
+
+            <!-- Time -->
+            <TextView
+                android:id="@+id/time"
+                style="@style/NewsListTime"
+                tools:text="12:00 AM" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/image_title_wrapper"
+        style="@style/NewsListImageTitleLiner">
+
+        <!-- Image -->
+        <ImageView
+            android:id="@+id/image"
+            style="@style/NewsListImage"
+            android:contentDescription="@string/news_image" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title"
+            style="@style/NewsListTitle"
+            tools:text="Example News" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/author_name"
+        style="@style/NewsListAuthor"
+        tools:text="author name" />
+
+
+</LinearLayout>

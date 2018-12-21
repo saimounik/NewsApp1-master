@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">News Feed</string>
+
+    <string name="news_image">News image</string>
+
+    <string name="no_news">No news feed.</string>
+
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <string name="settings_menu_item">Settings</string>
+
+    <string name="settings_title">News Settings</string>
+
+    <string name="settings_filter_by_label">Order By</string>
+    <string name="settings_section_filter" translatable="false">section</string>
+    <string name="settings_section_filter_default" translatable="false">@string/setting_show_all_sections_key_value</string>
+
+    <string name="setting_show_all_sections_label">Other News</string>
+    <string name="setting_show_all_sections_key_value">api-key</string>
+
+    <string name="settings_filter_by_politics_label">Politics</string>
+    <string name="settings_filter_by_politics_key_value" >politics</string>
+
+
+
+    <string name="settings_filter_by_business_label">Business</string>
+    <string name="settings_filter_by_business_key_value" >business</string>
+
+
+    <string name="settings_filter_by_world_news_label">World News</string>
+    <string name="settings_filter_by_world_news_key_value" >world</string>
+
+
+
+    <string name="settings_filter_by_music_label">Music</string>
+    <string name="settings_filter_by_music_key_value" >music</string>
+
+    <string name="settings_pref_title_rubric">Choose the rubric you want to receive news about.</string>
+
+
+
+</resources>
